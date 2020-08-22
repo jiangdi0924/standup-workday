@@ -1,0 +1,20 @@
+{
+  "name": "standup-workday",
+  "version": "1.0.5",
+  "description": "work day stand up tips",
+  "bin": {
+    "upw": "./up.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "node-notifier": "^8.0.0",
+    "node-schedule": "^1.3.2",
+    "tree-kill": "^1.2.2"
+  }
+}
